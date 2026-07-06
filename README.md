@@ -1,5 +1,6 @@
 ```bash
 apt update && apt upgrade -y
 apt install curl jq -y
-bash rce.sh
+chmod +x rce.sh
+./rce.sh
 ```
